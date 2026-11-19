@@ -1,8 +1,6 @@
 
-# Bioinformatics Learning Resources
 ![Bioinformatics Banner](banner.jpg)
 
-A collection of useful resources for learning bioinformatics, including online courses, tutorials, books, and practic
 A collection of useful resources for learning bioinformatics, including online courses, tutorials, books, and practical tools. The materials cover programming, statistics, command-line skills, and specialized bioinformatics applications.
 
 ---
@@ -145,6 +143,4 @@ A collection of useful resources for learning bioinformatics, including online c
 - [GCP for Bioinformatics](https://github.com/lynnlangit/gcp-for-bioinformatics)
 - [Team Teri](https://github.com/lynnlangit/TeamTeri)
 - [SLiM Workshops](http://benhaller.com/workshops/workshops.html)
-```
 
-This is plain Markdown: copy it into GitHub's `README.md` editor.
