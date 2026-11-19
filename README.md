@@ -1,140 +1,150 @@
-# Bioinformatics-Learning-A-Self-Study-Guide
-Bioinformatics Learning Resources: A Self-Study Guide
 
-Learning bioinformatics requires a combination of programming, data analysis, statistics, and specialized biological tools. This guide brings together useful online courses, tutorials, books, and practical resources that can help build these skills independently.
+# Bioinformatics Learning Resources
+![Bioinformatics Banner](banner.jpg)
 
-The resources are organized by topic and learning level, starting with foundational concepts and progressing towards more advanced applications. They cover both general computational skills and specialized areas of bioinformatics, including RNA-seq, single-cell analysis, read mapping, and variant calling.
+A collection of useful resources for learning bioinformatics, including online courses, tutorials, books, and practic
+A collection of useful resources for learning bioinformatics, including online courses, tutorials, books, and practical tools. The materials cover programming, statistics, command-line skills, and specialized bioinformatics applications.
 
-Contents
-Unix and Shell Programming
-R Programming
-Python Programming
-Statistics for Bioinformatics
-Git and Version Control
-RNA-seq Analysis
-Single-cell Analysis
-Read Mapping
-Variant Calling
-Additional Bioinformatics Resources
-1. Unix and Shell Programming
+---
 
-Command-line skills are essential for working with biological datasets, automating workflows, and handling large-scale sequencing data.
+## 📚 Table of Contents
 
-Beginner Level
-Greg Wilson's YouTube videos on the Unix shell
-Introduction to the Command Line for Genomics
-A Short Introduction to grep
-Lockdown Learning – Bioinformatics – A series of daily livestreamed bioinformatics lessons designed for learners without prior experience.
-Intermediate Level
-Advanced Beginner/Intermediate Shell
-Advanced Level
+- [Unix and Shell](#unix-and-shell)
+- [R Programming](#r-programming)
+- [Python Programming](#python-programming)
+- [Statistics](#statistics)
+- [Git and Version Control](#git-and-version-control)
+- [RNA-seq](#rna-seq)
+- [Single-cell Analysis](#single-cell-analysis)
+- [Read Mapping](#read-mapping)
+- [Variant Calling](#variant-calling)
+- [Miscellaneous](#miscellaneous)
 
-These resources introduce more sophisticated shell scripting techniques and practical approaches to command-line problem-solving.
+---
 
-Use the Unofficial Bash Strict Mode (Unless You Looove Debugging)
-Better Bash Scripting in 15 Minutes
-Bash Pitfalls
+## Unix and Shell
 
-Process Substitution
+### Beginner
 
-Using Names Pipes and Process Substitution in Bioinformatics
-Handy Bash Feature: Process Substitution
+- [Greg Wilson's YouTube Videos on the Unix Shell](https://www.youtube.com/watch?v=U3iNcBtycaQ)
+- [Introduction to the Command Line for Genomics](https://datacarpentry.org/shell-genomics/)
+- [A Short Introduction to grep](https://informatics.fas.harvard.edu/short-introduction-to-grep.html)
+- [Lockdown Learning - Bioinformatics](https://www.youtube.com/playlist?list=PLzfP3sCXUnxEu5S9oXni1zmc1sjYmT1L9)
 
-Useful Bioinformatics One-Liners
+### Intermediate
 
-One-Liners by Steven Turner
-Bioinformatics One-Liners by Ming (Tommy) Tang
-2. R Programming
+- [Advanced Beginner/Intermediate Shell](https://github.com/ngs-docs/2016-adv-begin-shell-genomics)
 
-R is widely used in bioinformatics for statistical analysis, data visualization, and the analysis of high-throughput biological data.
+### Advanced
 
-Beginner Level
-Data Analysis for the Life Sciences Series – A course by Rafael Irizarry at Dana Farber.
-Introduction to Computational Biology – Tutorials by Mike Love, the author of DESeq2 and other R packages.
-Intermediate Level
-Introduction to Bioconductor – Covers the structure, annotation, normalization, and interpretation of genome-scale assays. Available as a free edX course.
-R for Data Science – A comprehensive resource by Hadley Wickham, developer of Tidyverse and many other R tools.
-Advanced Level
-Advanced Bioconductor – Explores genomic visualization, reproducible analysis, data architecture, and cloud-scale genomic data. Available as a free edX course.
-Advanced R – An advanced R programming resource by Hadley Wickham.
-Bioconductor Courses and Conferences – A collection of training materials, courses, and conference resources.
-3. Python Programming
+- [Unofficial Bash Strict Mode](http://redsymbol.net/articles/unofficial-bash-strict-mode/)
+- [Better Bash Scripting in 15 Minutes](http://robertmuth.blogspot.com/2012/08/better-bash-scripting-in-15-minutes.html?m=1)
+- [Bash Pitfalls](http://mywiki.wooledge.org/BashPitfalls)
 
-Python is another important programming language in bioinformatics, particularly for scripting, automation, data processing, and computational biology applications.
+**Process Substitution**
+- [Using Names Pipes and Process Substitution in Bioinformatics](http://vincebuffalo.org/blog/2013/08/08/using-names-pipes-and-process-substitution-in-bioinformatics.html)
+- [Handy Bash Feature: Process Substitution](https://medium.com/@joewalnes/handy-bash-feature-process-substitution-8eb6dce68133#.uz5pj9yer)
 
-Beginner Level
-Using Python for Research – A collection of YouTube video links. Scroll to the bottom of the page to find the relevant materials.
-Biology Meets Programming: Bioinformatics for Beginners
-Intermediate Level
-Intermediate Python
-CheckiO – An interactive Python coding game that provides opportunities to practice programming through challenges.
-Advanced Level
+**Bioinformatics One-Liners**
+- [Steven Turner](https://github.com/stephenturner/oneliners)
+- [Ming (Tommy) Tang](https://github.com/crazyhottommy/bioinformatics-one-liners)
 
-No specific advanced-level resources were included in this collection.
+---
 
-4. Statistics for Bioinformatics
+## R Programming
 
-Statistical knowledge is important for interpreting experimental results, understanding biological variation, and performing reliable data analysis.
+### Beginner
 
-Modern Statistics for Modern Biology – A book by Susan Holmes and Wolfgang Huber.
-5. Git and Version Control
+- [Data Analysis for the Life Sciences](http://rafalab.github.io/pages/harvardx.html)
+- [Introduction to Computational Biology](https://biodatascience.github.io/compbio/)
 
-Version control is an important part of reproducible research and collaborative bioinformatics projects. Git helps track changes, manage code, and work efficiently with other researchers.
+### Intermediate
 
-Learning Git and GitHub
-GitHub Learning Lab
-How to Write a Git Commit Message
-Happy Git and GitHub for the useR – A book by Jenny Bryan.
-Learn Git Branching
-A Git Workflow Walkthrough Series
-A Quick Introduction to Version Control with Git and GitHub – Research paper.
-Ten Simple Rules for Taking Advantage of Git and GitHub – Research paper.
-Software Carpentry: Git Novice Lesson
-Git Best Practices
-GitHub Cheatsheet
-Git in Practice – An opinionated intermediate-to-advanced Git book.
-Troubleshooting and Fixing Git Problems
+- [Introduction to Bioconductor](https://www.edx.org/course/introduction-to-bioconductor-annotation-and-analys)
+- [R for Data Science](https://r4ds.had.co.nz/)
 
-Git can sometimes be confusing, especially when unexpected changes or mistakes occur. These resources provide practical guidance on recovering from common Git problems and undoing unwanted changes.
+### Advanced
 
-Oh Shit, Git!
-How to Undo (Almost) Anything with Git
-Git Flight Rules – A practical troubleshooting guide for programmers who encounter problems while using Git.
-6. RNA-seq Analysis
+- [Advanced Bioconductor](https://www.edx.org/course/advanced-bioconductor)
+- [Advanced R](https://adv-r.hadley.nz/)
+- [Bioconductor Courses and Conferences](https://www.bioconductor.org/help/course-materials/)
 
-This section is reserved for resources related to RNA sequencing data analysis.
+---
 
-No specific learning materials were listed in the original collection.
+## Python Programming
 
-7. Single-cell Analysis
+### Beginner
 
-Single-cell analysis is an important area of modern bioinformatics, particularly for studying cellular heterogeneity and gene expression at the individual-cell level.
+- [Using Python for Research](http://rafalab.github.io/pages/harvardx.html)
+- [Biology Meets Programming: Bioinformatics for Beginners](https://www.coursera.org/learn/bioinformatics)
 
-Harvard Informatics One-Day Intro
-Guided Analyses with Seurat
-8. Read Mapping
+### Intermediate
 
-This section is intended for learning resources covering read alignment and mapping in sequencing data analysis.
+- [Intermediate Python](https://github.com/yasoob/intermediatePython)
+- [CheckiO](https://py.checkio.org/)
 
-No specific resources were included in the original collection.
+### Advanced
 
-9. Variant Calling
+---
 
-Variant calling is a key step in genomic data analysis, allowing researchers to identify genetic differences such as SNPs and other sequence variations.
+## Statistics
 
-Harvard Informatics: FASTQ to VCF – A practical workflow designed for non-model organisms.
-RAD-seq Tutorials by dDocent:
-Reference Assembly
-SNP Filtering
-10. Additional Bioinformatics Resources
+- [Modern Statistics for Modern Biology](http://web.stanford.edu/class/bios221/book/index.html)
 
-The following resources cover a range of useful topics, including workflow management, computational biology, data visualization, cloud computing, and population genetics.
+---
 
-Understanding Snakemake – An overview by Vince Buffalo, author of Bioinformatics Data Skills.
-A Primer for Computational Biology – An introductory book covering computational biology.
-Fundamentals of Data Visualization – A book by Claus Wilke covering data visualization principles and figure design.
-GCP for Bioinformatics – A GitHub repository presenting patterns for using public cloud platforms in bioinformatics. It focuses on GCP, although the approaches can also be applied to AWS and Azure.
-Team Teri – A repository covering core bioinformatics terminology, file types, tools, frameworks, and computational patterns.
-SLiM Workshops – Extensive tutorials on using SLiM, a population genetics simulation environment.
+## Git and Version Control
 
-This collection serves as a starting point for independent learning in bioinformatics. Working through the resources progressively, alongside practical exercises and real biological datasets, can help develop both computational and analytical skills.
+- [GitHub Learning Lab](https://lab.github.com/)
+- [How to Write a Git Commit Message](https://chris.beams.io/posts/git-commit/)
+- [Happy Git and GitHub for the useR](http://happygitwithr.com/)
+- [Learn Git Branching](http://learngitbranching.js.org/)
+- [A Git Workflow Walkthrough Series](http://vallandingham.me/git-workflow.html)
+- [A Quick Introduction to Version Control with Git and GitHub](http://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1004668)
+- [Ten Simple Rules for Taking Advantage of Git and GitHub](http://journals.plos.org/ploscompbiol/article?id=10.1371%2Fjournal.pcbi.1004947)
+- [Software Carpentry Git Novice Lesson](http://swcarpentry.github.io/git-novice/)
+- [Git Best Practices](https://sethrobertson.github.io/GitBestPractices/)
+- [GitHub Cheatsheet](https://github.com/tiimgreen/github-cheat-sheet#readme)
+- [Git in Practice](https://github.com/GitInPractice/GitInPractice#readme)
+
+**Git Troubleshooting**
+- [Oh Shit, Git!](http://ohshitgit.com/)
+- [How to Undo (Almost) Anything with Git](https://github.com/blog/2019-how-to-undo-almost-anything-with-git)
+- [Git Flight Rules](https://github.com/k88hudson/git-flight-rules)
+
+---
+
+## RNA-seq
+
+---
+
+## Single-cell Analysis
+
+- [Harvard Informatics One-Day Intro](https://crazyhottommy.github.io/scRNA-seq-workshop-Fall-2019/)
+- [Guided Analyses with Seurat](https://satijalab.org/seurat/vignettes.html)
+
+---
+
+## Read Mapping
+
+---
+
+## Variant Calling
+
+- [Harvard Informatics: FASTQ to VCF](https://informatics.fas.harvard.edu/whole-genome-resquencing-for-population-genomics-fastq-to-vcf.html)
+- [RAD-seq: Reference Assembly](http://www.ddocent.com/assembly/)
+- [RAD-seq: SNP Filtering](http://www.ddocent.com/filtering/)
+
+---
+
+## Miscellaneous
+
+- [Understanding Snakemake](https://vincebuffalo.com/blog/2020/03/04/understanding-snakemake.html)
+- [A Primer for Computational Biology](https://open.oregonstate.education/computationalbiology/)
+- [Fundamentals of Data Visualization](https://serialmentor.com/dataviz/)
+- [GCP for Bioinformatics](https://github.com/lynnlangit/gcp-for-bioinformatics)
+- [Team Teri](https://github.com/lynnlangit/TeamTeri)
+- [SLiM Workshops](http://benhaller.com/workshops/workshops.html)
+```
+
+This is plain Markdown: copy it into GitHub's `README.md` editor.
