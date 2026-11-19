@@ -144,3 +144,14 @@ A collection of useful resources for learning bioinformatics, including online c
 - [Team Teri](https://github.com/lynnlangit/TeamTeri)
 - [SLiM Workshops](http://benhaller.com/workshops/workshops.html)
 
+---
+
+## Acknowledgments and Credits
+
+A big thank you to all the authors, researchers, educators, developers, and organizations who have created and shared these valuable learning resources.
+
+Please acknowledge and cite the original authors and sources whenever you use these materials. Collecting, organizing, and compiling educational resources requires considerable time, effort, and dedication. This collection would not be possible without their hard work and contributions to the bioinformatics community.
+
+**Please support the original creators by visiting their resources, citing their work, and giving proper credit wherever it is due.**
+
+Happy learning, and thank you to everyone who makes knowledge freely accessible! ❤️
